@@ -1,0 +1,15 @@
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\bin\Debug\net9.0\QueueSystem.Application.deps.json
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\bin\Debug\net9.0\QueueSystem.Application.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\bin\Debug\net9.0\QueueSystem.Application.pdb
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSystem.Application.AssemblyInfoInputs.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSystem.Application.AssemblyInfo.cs
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSystem.Application.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\refint\QueueSystem.Application.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSystem.Application.pdb
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\ref\QueueSystem.Application.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSystem.Application.csproj.AssemblyReference.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\bin\Debug\net9.0\QueueSystem.Domain.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\bin\Debug\net9.0\QueueSystem.Domain.pdb
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Application\obj\Debug\net9.0\QueueSys.3F1A3F48.Up2Date

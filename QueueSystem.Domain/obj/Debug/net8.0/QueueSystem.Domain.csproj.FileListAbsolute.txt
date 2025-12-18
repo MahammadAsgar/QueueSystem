@@ -1,0 +1,4 @@
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net8.0\QueueSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net8.0\QueueSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net8.0\QueueSystem.Domain.AssemblyInfo.cs
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net8.0\QueueSystem.Domain.csproj.CoreCompileInputs.cache

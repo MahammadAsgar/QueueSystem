@@ -1,0 +1,14 @@
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\bin\Debug\net9.0\QueueSystem.Domain.deps.json
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\bin\Debug\net9.0\QueueSystem.Domain.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\bin\Debug\net9.0\QueueSystem.Domain.pdb
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.AssemblyInfo.cs
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\refint\QueueSystem.Domain.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.pdb
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\ref\QueueSystem.Domain.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\bin\Debug\net9.0\QueueSystem.Domain.runtimeconfig.json
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.genruntimeconfig.cache

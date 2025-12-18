@@ -1,0 +1,11 @@
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\bin\Debug\net8.0\QueueSystem.Infrasturucture.deps.json
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\bin\Debug\net8.0\QueueSystem.Infrasturucture.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\bin\Debug\net8.0\QueueSystem.Infrasturucture.pdb
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\QueueSystem.Infrasturucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\QueueSystem.Infrasturucture.AssemblyInfoInputs.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\QueueSystem.Infrasturucture.AssemblyInfo.cs
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\QueueSystem.Infrasturucture.csproj.CoreCompileInputs.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\QueueSystem.Infrasturucture.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\refint\QueueSystem.Infrasturucture.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\QueueSystem.Infrasturucture.pdb
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net8.0\ref\QueueSystem.Infrasturucture.dll
