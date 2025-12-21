@@ -13,10 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\QueueSystem.Application\QueueSystem.Application.csproj" />
     <ProjectReference Include="..\QueueSystem.Domain\QueueSystem.Domain.csproj" />
   </ItemGroup>
 

@@ -35,11 +35,7 @@ C:\Users\maham\source\repos\QueueSystem\QueueSystem\obj\Debug\net9.0\QueueSystem
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\obj\Debug\net9.0\ref\QueueSystem.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\EntityFramework.SqlServer.dll
-C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\EntityFramework.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Humanizer.dll
-C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.AspNet.Identity.Core.dll
-C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
@@ -181,3 +177,4 @@ C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\QueueSystem
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\QueueSystem.Infrasturucture.pdb
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\obj\Debug\net9.0\QueueSystem.sourcelink.json

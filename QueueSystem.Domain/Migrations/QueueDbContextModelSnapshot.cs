@@ -86,28 +86,28 @@ namespace QueueSystem.Domain.Migrations
                         new
                         {
                             Id = 1,
-                            AddDate = new DateTime(2025, 12, 18, 21, 14, 55, 179, DateTimeKind.Local).AddTicks(1187),
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(1319),
                             Code = "P1",
                             Title = "Critical"
                         },
                         new
                         {
                             Id = 2,
-                            AddDate = new DateTime(2025, 12, 18, 21, 14, 55, 179, DateTimeKind.Local).AddTicks(8058),
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(8248),
                             Code = "P2",
                             Title = "High"
                         },
                         new
                         {
                             Id = 3,
-                            AddDate = new DateTime(2025, 12, 18, 21, 14, 55, 179, DateTimeKind.Local).AddTicks(8067),
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(8258),
                             Code = "P3",
                             Title = "Medium"
                         },
                         new
                         {
                             Id = 4,
-                            AddDate = new DateTime(2025, 12, 18, 21, 14, 55, 179, DateTimeKind.Local).AddTicks(8068),
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(8259),
                             Code = "P4",
                             Title = "Low"
                         });
@@ -234,6 +234,50 @@ namespace QueueSystem.Domain.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Statuses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6892),
+                            Title = "Waiting"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6898),
+                            Title = "Called"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6899),
+                            Title = "Serving"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6901),
+                            Title = "Cancelled"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6902),
+                            Title = "Completed"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6903),
+                            Title = "Expired"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6904),
+                            Title = "Recalled"
+                        });
                 });
 
             modelBuilder.Entity("QueueSystem.Domain.Entities.Worker", b =>

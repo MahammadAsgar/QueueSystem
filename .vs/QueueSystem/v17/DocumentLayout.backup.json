@@ -3,60 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\maham\\source\\repos\\QueueSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.persistance\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|solutionrelative:queuesystem.persistance\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.persistance\\jwt\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|solutionrelative:queuesystem.persistance\\jwt\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90EA8E3-8303-4FBC-966C-52EEF305A876}|QueueSystem\\QueueSystem.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E90EA8E3-8303-4FBC-966C-52EEF305A876}|QueueSystem\\QueueSystem.csproj|solutionrelative:queuesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.persistance\\jwt\\itokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|solutionrelative:queuesystem.persistance\\jwt\\itokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.persistance\\jwt\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F7A022-EC38-47B0-A77F-2B3AB9DF0C5E}|QueueSystem.Persistance\\QueueSystem.Persistance.csproj|solutionrelative:queuesystem.persistance\\jwt\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92782D84-E657-4DE4-B98F-244F783994E8}|QueueSystem.Application\\QueueSystem.Application.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92782D84-E657-4DE4-B98F-244F783994E8}|QueueSystem.Application\\QueueSystem.Application.csproj|solutionrelative:queuesystem.application\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\context\\queuedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\context\\queuedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entitiesconfiguration\\userconfiguration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entitiesconfiguration\\userconfiguration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\users\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\users\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entitiesconfiguration\\priorityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entitiesconfiguration\\priorityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\users\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\users\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\mapper\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\mapper\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\dtos\\queue\\getqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\dtos\\queue\\getqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\services\\concrete\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\services\\concrete\\statusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\dtos\\prioritydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\dtos\\prioritydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\dtos\\customer\\getcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\dtos\\customer\\getcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\dtos\\statusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\dtos\\statusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\dtos\\customer\\addcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\dtos\\customer\\addcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.infrasturucture\\dtos\\queue\\addqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FCC3B-B841-4361-948A-7516BAB739E8}|QueueSystem.Infrasturucture\\QueueSystem.Infrasturucture.csproj|solutionrelative:queuesystem.infrasturucture\\dtos\\queue\\addqueuedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|c:\\users\\maham\\source\\repos\\queuesystem\\queuesystem.domain\\entities\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC86523-36B2-4D78-9264-733D669D5BD1}|QueueSystem.Domain\\QueueSystem.Domain.csproj|solutionrelative:queuesystem.domain\\entities\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,182 +80,208 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\ServiceRegistration.cs*",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\ServiceRegistration.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Persistance\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\ServiceRegistration.cs",
+              "RelativeToolTip": "QueueSystem.Persistance\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T20:20:19.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapProfile.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T20:15:06.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetCustomerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Customer\\GetCustomerDTO.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\DTOs\\Customer\\GetCustomerDTO.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Customer\\GetCustomerDTO.cs",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\DTOs\\Customer\\GetCustomerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T20:10:59.832Z",
+              "WhenOpened": "2025-12-21T19:09:20.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetQueueDTO.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Queue\\GetQueueDTO.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\DTOs\\Queue\\GetQueueDTO.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Queue\\GetQueueDTO.cs",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\DTOs\\Queue\\GetQueueDTO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T20:09:04.771Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "QueueSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem\\appsettings.json",
+              "RelativeToolTip": "QueueSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-21T19:04:48.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddQueueDTO.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Queue\\AddQueueDTO.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\DTOs\\Queue\\AddQueueDTO.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Queue\\AddQueueDTO.cs",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\DTOs\\Queue\\AddQueueDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\Jwt\\TokenHandler.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Persistance\\Jwt\\TokenHandler.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\Jwt\\TokenHandler.cs",
+              "RelativeToolTip": "QueueSystem.Persistance\\Jwt\\TokenHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T20:08:52.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddCustomerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Customer\\AddCustomerDTO.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\DTOs\\Customer\\AddCustomerDTO.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\Customer\\AddCustomerDTO.cs",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\DTOs\\Customer\\AddCustomerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T20:06:56.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StatusDTO.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\StatusDTO.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\DTOs\\StatusDTO.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\StatusDTO.cs",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\DTOs\\StatusDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T19:59:54.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PriorityDTO.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\PriorityDTO.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\DTOs\\PriorityDTO.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\DTOs\\PriorityDTO.cs",
-              "RelativeToolTip": "QueueSystem.Infrasturucture\\DTOs\\PriorityDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T19:58:47.736Z",
+              "WhenOpened": "2025-12-21T19:02:49.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Priority.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Priority.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Priority.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Priority.cs",
-              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Priority.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAoAAAAAAAAAA==",
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\Jwt\\Token.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Persistance\\Jwt\\Token.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\Jwt\\Token.cs",
+              "RelativeToolTip": "QueueSystem.Persistance\\Jwt\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:36:27.739Z",
+              "WhenOpened": "2025-12-21T19:01:46.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Queue.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Queue.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Queue.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Queue.cs",
-              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Queue.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAqAAAAAAAAAA==",
+              "Title": "ITokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\Jwt\\ITokenHandler.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Persistance\\Jwt\\ITokenHandler.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Persistance\\Jwt\\ITokenHandler.cs",
+              "RelativeToolTip": "QueueSystem.Persistance\\Jwt\\ITokenHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:44:20.444Z",
+              "WhenOpened": "2025-12-21T19:01:30.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Worker.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Worker.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Worker.cs",
-              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Application\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Application\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Application\\ServiceRegistration.cs",
+              "RelativeToolTip": "QueueSystem.Application\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:39:16.615Z",
+              "WhenOpened": "2025-12-21T18:56:24.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\ServiceRegistration.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T18:52:32.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Configuration.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\Configuration.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Configuration.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T18:52:35.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Service.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Service.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Service.cs",
-              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "PriorityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\EntitiesConfiguration\\PriorityConfiguration.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\EntitiesConfiguration\\PriorityConfiguration.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\EntitiesConfiguration\\PriorityConfiguration.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\EntitiesConfiguration\\PriorityConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:38:22.384Z",
+              "WhenOpened": "2025-12-21T18:35:15.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\EntitiesConfiguration\\UserConfiguration\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\EntitiesConfiguration\\UserConfiguration\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\EntitiesConfiguration\\UserConfiguration\\RoleConfiguration.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\EntitiesConfiguration\\UserConfiguration\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T18:35:09.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Customer.cs",
-              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Users\\AppRole.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Users\\AppRole.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Users\\AppRole.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Users\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:37:26.084Z",
+              "WhenOpened": "2025-12-21T18:32:32.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Users\\AppUser.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Users\\AppUser.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Users\\AppUser.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Users\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T18:29:40.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Queue.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Queue.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Queue.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Queue.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:23:41.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Status.cs",
-              "RelativeDocumentMoniker": "QueueSystem.Domain\\Entities\\Status.cs",
-              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Entities\\Status.cs",
-              "RelativeToolTip": "QueueSystem.Domain\\Entities\\Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "MapProfile.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
+              "RelativeToolTip": "QueueSystem.Infrasturucture\\Mapper\\MapProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:34:00.224Z",
+              "WhenOpened": "2025-12-21T13:23:31.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StatusService.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\Services\\Concrete\\StatusService.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Infrasturucture\\Services\\Concrete\\StatusService.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Infrasturucture\\Services\\Concrete\\StatusService.cs",
+              "RelativeToolTip": "QueueSystem.Infrasturucture\\Services\\Concrete\\StatusService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:07:37.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QueueDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Context\\QueueDbContext.cs",
+              "RelativeDocumentMoniker": "QueueSystem.Domain\\Context\\QueueDbContext.cs",
+              "ToolTip": "C:\\Users\\maham\\source\\repos\\QueueSystem\\QueueSystem.Domain\\Context\\QueueDbContext.cs",
+              "RelativeToolTip": "QueueSystem.Domain\\Context\\QueueDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwB4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T13:06:02.104Z",
               "EditorCaption": ""
             }
           ]

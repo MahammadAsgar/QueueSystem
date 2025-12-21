@@ -12,3 +12,4 @@ C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\Queu
 C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\ref\QueueSystem.Domain.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\bin\Debug\net9.0\QueueSystem.Domain.runtimeconfig.json
 C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.genruntimeconfig.cache
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Domain\obj\Debug\net9.0\QueueSystem.Domain.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\ne
 C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\bin\Debug\net9.0\QueueSystem.Domain.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\bin\Debug\net9.0\QueueSystem.Domain.pdb
 C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net9.0\QueueSys.DF9228F9.Up2Date
+C:\Users\maham\source\repos\QueueSystem\QueueSystem.Infrasturucture\obj\Debug\net9.0\QueueSystem.Infrasturucture.sourcelink.json
