@@ -26,17 +26,23 @@ namespace QueueSystem.Domain.Context
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.ApplyConfiguration(new PriorityConfiguration());
-            builder.ApplyConfiguration(new StatusConfiguration());
             builder.ApplyConfiguration(new RoleConfiguration());
+
+            builder.Entity<QueueTicket>()
+                .HasOne(q => q.Customer)
+                .WithMany()
+                .HasForeignKey(q => q.CustomerId);
+
+            builder.Entity<QueueTicket>()
+                .HasOne(q => q.User)
+                .WithMany()
+                .HasForeignKey(q => q.UserId);
+
+
             base.OnModelCreating(builder);
         }
 
-        public DbSet<Queue> Queues { get; set; }
-        public DbSet<Worker> Workers { get; set; }
+        public DbSet<QueueTicket> Queues { get; set; }
         public DbSet<Service> Services { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Priority> Priorities { get; set; }
-        public DbSet<Status> Statuses { get; set; }
     }
 }

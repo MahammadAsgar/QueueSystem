@@ -22,7 +22,7 @@ namespace QueueSystem.Domain.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("QueueSystem.Domain.Entities.Customer", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -30,30 +30,23 @@ namespace QueueSystem.Domain.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("AddDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
+                    b.Property<string>("ClaimType")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ServiceId")
-                        .HasColumnType("int");
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ServiceId");
+                    b.HasIndex("RoleId");
 
-                    b.ToTable("Customers");
+                    b.ToTable("AspNetRoleClaims", (string)null);
                 });
 
-            modelBuilder.Entity("QueueSystem.Domain.Entities.Priority", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<int>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -61,59 +54,78 @@ namespace QueueSystem.Domain.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("AddDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Code")
-                        .IsRequired()
+                    b.Property<string>("ClaimType")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
+                    b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Priorities");
+                    b.HasIndex("UserId");
 
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(1319),
-                            Code = "P1",
-                            Title = "Critical"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(8248),
-                            Code = "P2",
-                            Title = "High"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(8258),
-                            Code = "P3",
-                            Title = "Medium"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 714, DateTimeKind.Local).AddTicks(8259),
-                            Code = "P4",
-                            Title = "Low"
-                        });
+                    b.ToTable("AspNetUserClaims", (string)null);
                 });
 
-            modelBuilder.Entity("QueueSystem.Domain.Entities.Queue", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<int>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<int>", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("QueueSystem.Domain.Entities.QueueTicket", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -127,10 +139,13 @@ namespace QueueSystem.Domain.Migrations
                     b.Property<DateTime?>("AfterFreezeDateTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("AppUserId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreateDateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CustomerId")
+                    b.Property<int?>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("DeletedDate")
@@ -153,13 +168,13 @@ namespace QueueSystem.Domain.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PriorityId")
+                    b.Property<int>("Priority")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("StartDateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("StatusId")
+                    b.Property<int>("Status")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdateDate")
@@ -168,18 +183,16 @@ namespace QueueSystem.Domain.Migrations
                     b.Property<DateTime?>("UpdateDateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("WorkerId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AppUserId");
+
                     b.HasIndex("CustomerId");
 
-                    b.HasIndex("PriorityId");
-
-                    b.HasIndex("StatusId");
-
-                    b.HasIndex("WorkerId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Queues");
                 });
@@ -195,6 +208,9 @@ namespace QueueSystem.Domain.Migrations
                     b.Property<DateTime>("AddDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("AppUserId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
 
@@ -207,10 +223,12 @@ namespace QueueSystem.Domain.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AppUserId");
+
                     b.ToTable("Services");
                 });
 
-            modelBuilder.Entity("QueueSystem.Domain.Entities.Status", b =>
+            modelBuilder.Entity("QueueSystem.Domain.Entities.Users.AppRole", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -218,69 +236,49 @@ namespace QueueSystem.Domain.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("AddDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Statuses");
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6892),
-                            Title = "Waiting"
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 2,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6898),
-                            Title = "Called"
+                            Name = "User",
+                            NormalizedName = "USER"
                         },
                         new
                         {
                             Id = 3,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6899),
-                            Title = "Serving"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6901),
-                            Title = "Cancelled"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6902),
-                            Title = "Completed"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6903),
-                            Title = "Expired"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            AddDate = new DateTime(2025, 12, 21, 17, 19, 34, 715, DateTimeKind.Local).AddTicks(6904),
-                            Title = "Recalled"
+                            Name = "Customer",
+                            NormalizedName = "CUSTOMER"
                         });
                 });
 
-            modelBuilder.Entity("QueueSystem.Domain.Entities.Worker", b =>
+            modelBuilder.Entity("QueueSystem.Domain.Entities.Users.AppUser", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -288,68 +286,152 @@ namespace QueueSystem.Domain.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("AddDate")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
 
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
 
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Workers");
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("QueueSystem.Domain.Entities.Customer", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
-                    b.HasOne("QueueSystem.Domain.Entities.Service", "Service")
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppRole", null)
                         .WithMany()
-                        .HasForeignKey("ServiceId")
+                        .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Service");
                 });
 
-            modelBuilder.Entity("QueueSystem.Domain.Entities.Queue", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<int>", b =>
                 {
-                    b.HasOne("QueueSystem.Domain.Entities.Customer", "Customer")
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", null)
                         .WithMany()
-                        .HasForeignKey("CustomerId")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<int>", b =>
+                {
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<int>", b =>
+                {
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("QueueSystem.Domain.Entities.Priority", "Priority")
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", null)
                         .WithMany()
-                        .HasForeignKey("PriorityId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
 
-                    b.HasOne("QueueSystem.Domain.Entities.Status", "Status")
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>
+                {
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", null)
                         .WithMany()
-                        .HasForeignKey("StatusId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
 
-                    b.HasOne("QueueSystem.Domain.Entities.Worker", "Worker")
+            modelBuilder.Entity("QueueSystem.Domain.Entities.QueueTicket", b =>
+                {
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", null)
+                        .WithMany("Tikets")
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", "Customer")
                         .WithMany()
-                        .HasForeignKey("WorkerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId");
+
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
 
                     b.Navigation("Customer");
 
-                    b.Navigation("Priority");
+                    b.Navigation("User");
+                });
 
-                    b.Navigation("Status");
+            modelBuilder.Entity("QueueSystem.Domain.Entities.Service", b =>
+                {
+                    b.HasOne("QueueSystem.Domain.Entities.Users.AppUser", null)
+                        .WithMany("Services")
+                        .HasForeignKey("AppUserId");
+                });
 
-                    b.Navigation("Worker");
+            modelBuilder.Entity("QueueSystem.Domain.Entities.Users.AppUser", b =>
+                {
+                    b.Navigation("Services");
+
+                    b.Navigation("Tikets");
                 });
 #pragma warning restore 612, 618
         }

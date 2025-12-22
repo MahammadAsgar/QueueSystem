@@ -178,3 +178,10 @@ C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\QueueSystem
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\maham\source\repos\QueueSystem\QueueSystem\obj\Debug\net9.0\QueueSystem.sourcelink.json
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\QueueSystem.Persistance.dll
+C:\Users\maham\source\repos\QueueSystem\QueueSystem\bin\Debug\net9.0\QueueSystem.Persistance.pdb

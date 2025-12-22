@@ -40,8 +40,6 @@ namespace QueueSystem.Persistance.Jwt
             List<Claim> claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                new Claim(ClaimTypes.MobilePhone, user.PhoneNumber),
             };
             claims.AddRange(roles.Select(x => new Claim(ClaimTypes.Role, x)));
             return claims;

@@ -25,6 +25,7 @@
     <ProjectReference Include="..\QueueSystem.Application\QueueSystem.Application.csproj" />
     <ProjectReference Include="..\QueueSystem.Domain\QueueSystem.Domain.csproj" />
     <ProjectReference Include="..\QueueSystem.Infrasturucture\QueueSystem.Infrasturucture.csproj" />
+    <ProjectReference Include="..\QueueSystem.Persistance\QueueSystem.Persistance.csproj" />
   </ItemGroup>
 
 </Project>

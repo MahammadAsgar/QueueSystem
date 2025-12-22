@@ -17,16 +17,19 @@ namespace QueueSystem.Domain.EntitiesConfiguration.UserConfiguration
             builder.HasData(
                 new AppRole()
                 {
+                    Id=1,
                     Name = "Admin",
-                    NormalizedName = "USER",
+                    NormalizedName = "ADMIN",
                 },
                 new AppRole()
                 {
+                    Id=2,
                     Name = "User",
                     NormalizedName = "USER"
                 },
                 new AppRole()
                 {
+                    Id=3,
                     Name = "Customer",
                     NormalizedName = "CUSTOMER"
                 });
