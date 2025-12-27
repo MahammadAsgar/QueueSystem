@@ -1,5 +1,5 @@
-using QueueSystem.Domain;
 using QueueSystem.Application;
+using QueueSystem.Domain;
 using QueueSystem.Infrasturucture;
 using QueueSystem.Persistance;
 var builder = WebApplication.CreateBuilder(args);

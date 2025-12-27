@@ -1,11 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QueueSystem.Domain.Context;
 using QueueSystem.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QueueSystem.Application.UnitOfWorks
 {

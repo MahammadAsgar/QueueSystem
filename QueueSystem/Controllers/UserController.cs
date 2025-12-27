@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using QueueSystem.Infrasturucture.DTOs.User;
 using QueueSystem.Infrasturucture.Services.UserService;
 

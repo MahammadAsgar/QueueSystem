@@ -1,18 +1,11 @@
 ﻿using AutoMapper;
-using Azure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using QueueSystem.Application.Repositories.Abstract;
 using QueueSystem.Domain.Entities;
 using QueueSystem.Domain.Entities.Users;
 using QueueSystem.Infrasturucture.DTOs.User;
 using QueueSystem.Persistance.Jwt;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QueueSystem.Infrasturucture.Services.UserService
 {

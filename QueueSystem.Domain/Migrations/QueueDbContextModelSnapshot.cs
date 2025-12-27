@@ -194,7 +194,7 @@ namespace QueueSystem.Domain.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Queues");
+                    b.ToTable("Queues", (string)null);
                 });
 
             modelBuilder.Entity("QueueSystem.Domain.Entities.Service", b =>
@@ -225,7 +225,7 @@ namespace QueueSystem.Domain.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("Services");
+                    b.ToTable("Services", (string)null);
                 });
 
             modelBuilder.Entity("QueueSystem.Domain.Entities.Users.AppRole", b =>

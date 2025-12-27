@@ -3,13 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using QueueSystem.Domain.Entities;
 using QueueSystem.Domain.Entities.Users;
-using QueueSystem.Domain.EntitiesConfiguration;
 using QueueSystem.Domain.EntitiesConfiguration.UserConfiguration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QueueSystem.Domain.Context
 {
@@ -28,12 +22,12 @@ namespace QueueSystem.Domain.Context
         {
             builder.ApplyConfiguration(new RoleConfiguration());
 
-            builder.Entity<QueueTicket>()
+            builder.Entity<Ticket>()
                 .HasOne(q => q.Customer)
                 .WithMany()
                 .HasForeignKey(q => q.CustomerId);
 
-            builder.Entity<QueueTicket>()
+            builder.Entity<Ticket>()
                 .HasOne(q => q.User)
                 .WithMany()
                 .HasForeignKey(q => q.UserId);
@@ -42,7 +36,7 @@ namespace QueueSystem.Domain.Context
             base.OnModelCreating(builder);
         }
 
-        public DbSet<QueueTicket> Queues { get; set; }
+        public DbSet<Ticket> Queues { get; set; }
         public DbSet<Service> Services { get; set; }
     }
 }

@@ -1,16 +1,9 @@
 ﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore;
 using QueueSystem.Application.Repositories.Abstract;
 using QueueSystem.Application.UnitOfWorks;
 using QueueSystem.Domain.Entities;
 using QueueSystem.Infrasturucture.DTOs;
-using QueueSystem.Infrasturucture.DTOs.Queue;
 using QueueSystem.Infrasturucture.Services.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QueueSystem.Infrasturucture.Services.Concrete
 {
@@ -26,7 +19,7 @@ namespace QueueSystem.Infrasturucture.Services.Concrete
         public async Task<List<ServiceDTO>> GetServices()
         {
             var items = await repository.GetAll();
-            return  mapper.Map<List<ServiceDTO>>(items);
+            return mapper.Map<List<ServiceDTO>>(items);
         }
     }
 }
